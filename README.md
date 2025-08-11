@@ -24,10 +24,10 @@ FootballAI/                 # Main folder
 
 ## Getting Started
 
-# Create an empty parent directory and enter it
+- **Create an empty parent directory and enter it**
 mkdir FootballAI && cd FootballAI
 
-# Clone both components in their respective directory
+- **Clone both components in their respective directory**
 git clone https://github.com/Cykalele/FootballAI_Backend.git
 git clone https://github.com/Cykalele/FootballAI_UI.git
 
