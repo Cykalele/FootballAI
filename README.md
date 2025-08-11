@@ -22,15 +22,24 @@ FootballAI/                 # Main folder
 ```
 
 
-## Getting Started
+## 🚀 Getting Started
 
-- **Create an empty parent directory and enter it**
-  
-mkdir FootballAI && cd FootballAI
+1. **Create a parent directory and navigate into it**
+   ```bash
+   mkdir FootballAI
+   cd FootballAI
+   ```
+2. **Clone the backend and frontend repositories**
+   ```bash
+   git clone https://github.com/Cykalele/FootballAI_Backend.git
+   git clone https://github.com/Cykalele/FootballAI_UI.git
+   ```
+3. **Follow the setup instructions in each repository**
+  - [⚙️ Backend Setup Guide](https://github.com/Cykalele/FootballAI_Backend#readme)
+  - [🖥️ Frontend Setup Guide](https://github.com/Cykalele/FootballAI_UI#readme)
+   
 
-- **Clone both components in their respective directory**
 
-git clone https://github.com/Cykalele/FootballAI_Backend.git
-git clone https://github.com/Cykalele/FootballAI_UI.git
+
 
 
