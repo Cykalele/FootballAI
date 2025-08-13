@@ -3,6 +3,12 @@
 This directory contains all evaluation outputs for the object detection module described in the thesis.  
 The results are based on the final YOLOv12s configuration and dataset composition outlined in the methodology section.
 
+## Dataset Reference
+The underlying dataset, including the full documentation of its creation, preprocessing scripts, and the final train/validation/test splits, is available in the  
+[**`object-detection`** directory of the repository](https://github.com/ToHauser/FootballAI/tree/main/object-detection).
+This folder was linked in the methodology chapter during the explanation of the underlying data basis.
+
+
 ## Directory Structure
 
 - **`yolo12s_train_val_results/`**  
