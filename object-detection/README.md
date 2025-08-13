@@ -1,4 +1,4 @@
-# PlayerDetection - FootballAI
+# ObjectDetection - FootballAI
 
 This repository contains the final object detection configuration developed for the Master's thesis *FootballAI*. The objective is the robust detection of the object classes `player`, `referee`, and `ball` in amateur football footage.
 
