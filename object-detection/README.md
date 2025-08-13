@@ -4,9 +4,9 @@ This repository contains the final object detection configuration developed for 
 
 ## 📦 Repository Structure
 
+- `train.ipynb` – Training / Validation / Testing notebook containing the final achieved results
 - `config.yaml` – Training configuration for YOLOv12s (Ultralytics), including class definitions and dataset paths
 - `dataset/` – Directory structure and YOLO-format annotations ([detailed explanation in `dataset/README.md`](dataset/README.md))
-- `train.ipynb` – Training notebook compatible with the Ultralytics framework
 - `README.md` – Repository documentation
 
 ## 🧠 Model Architecture
