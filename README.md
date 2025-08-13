@@ -20,6 +20,15 @@ It does **not** contain the code of the system itself, but links to the two main
   - Model trained on a combined dataset of own drone footage, penalty-scene images, and broadcast images from Skalski et al.  
   🔗 [View full dataset on Roboflow](https://universe.roboflow.com/footballai-xndiy/masterthesis_dataset)
 
+- **Evaluation** – [`evaluation/`](evaluation)  
+  Contains the complete evaluation results and scripts for each system component.  
+  - **Object Detection** – [`evaluation/object-detection`](evaluation/object-detection)  
+    - `yolo12s_train_val_results`: Graphical results and training logs of the best YOLOv12s model  
+    - `yolo12s_test_results_tile`: Evaluation results on the test dataset using tile inference  
+    - `train_test_val.ipynb`: Full pipeline including parameter settings and test data evaluation  
+  - **Tracking, View Transformation, Team Assignment, Metrics** – individual folders with scripts and results derived from a 6-minute evaluation video ([YouTube link](https://www.youtube.com/watch?v=6_x9rNNgVok&ab_channel=ThomasHauser))  
+  - !!Only the object detection evaluation uses a ground-truth test dataset; all other components are evaluated based on persisted outputs from the evaluation video.!!
+
 ---
 
 ## 📂 Recommended Directory Structure
@@ -27,8 +36,9 @@ It does **not** contain the code of the system itself, but links to the two main
 ```plaintext
 FootballAI/                 # Main folder
 ├── FootballAI_Backend/     # Clone from backend repo
-└── FootballAI_UI/          # Clone from frontend repo
-└── Object-Detection/       # Storage of Training, Test, Validation Data and Configurations
+├── FootballAI_UI/          # Clone from frontend repo
+├── object-detection/       # Training, Test, Validation Data and Configurations
+└── evaluation/             # Evaluation results and scripts for all components
 ```
 
 
