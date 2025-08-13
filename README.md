@@ -11,6 +11,15 @@ It does **not** contain the code of the system itself, but links to the two main
   Provides the user interface for uploading videos, assigning teams, visualizing metrics, and downloading results.  
   Detailed installation and usage instructions are provided in the frontend repository.
 
+- **Object Detection** – [`object-detection/`](object-detection)  
+  Contains the final YOLOv12s-based player, referee, and ball detection configuration developed for the Master's thesis.  
+  Includes:
+  - Training configuration (`config.yaml`) and YOLO-format class definitions
+  - Dataset structure and annotation guidelines ([details](object-detection/dataset/README.md))
+  - Training notebook (`train.ipynb`) for the Ultralytics framework
+  - Model trained on a combined dataset of own drone footage, penalty-scene images, and broadcast images from Skalski et al.  
+  🔗 [View full dataset on Roboflow](https://universe.roboflow.com/footballai-xndiy/masterthesis_dataset)
+
 ---
 
 ## 📂 Recommended Directory Structure
@@ -19,6 +28,7 @@ It does **not** contain the code of the system itself, but links to the two main
 FootballAI/                 # Main folder
 ├── FootballAI_Backend/     # Clone from backend repo
 └── FootballAI_UI/          # Clone from frontend repo
+└── Object-Detection/       # Storage of Training, Test, Validation Data and Configurations
 ```
 
 
