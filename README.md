@@ -1,4 +1,4 @@
-# FootballAI – Combined Repository
+# Amateur End-to-End Football AI – Combined Repository
 
 This repository serves as the **entry point** to the complete FootballAI system.  
 It does **not** contain the code of the system itself, but links to the two main repositories:
