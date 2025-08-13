@@ -11,5 +11,6 @@ Each subfolder corresponds to a specific component:
 
 The results (except for object detection) are based on a six-minute amateur football match recording.  
 📺 **Baseline Evaluation Video (without manual team assignment):** [Watch on YouTube](https://www.youtube.com/watch?v=6_x9rNNgVok&ab_channel=ThomasHauser)
+
 📺 **Reference Evaluation Video (with manual team assignment):** [Watch on YouTube](https://www.youtube.com/watch?v=s4cyrkbYjLY&feature=youtu.be)
 
